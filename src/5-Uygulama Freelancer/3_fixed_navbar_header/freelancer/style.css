@@ -103,7 +103,7 @@ nav {
 
 header {
 	background-color: #18BC9C;
-	padding-top:calc(112px + 10rem); <!-- navbar position:fixed yapıldığında normal akışın dışına çıkar ve header en yukardan başlar. Bu yüzden hesaplama yapılıyor  -->
+	padding-top:calc(112px + 10rem); <!-- navbar position:fixed yapıldığında normal akışın dışına çıkar ve header en yukardan başlar. Bu yüzden hesaplama yapılıyor &era -->
 	padding-bottom: 112px;
 	text-align: center;
 }
