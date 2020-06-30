@@ -1,0 +1,26 @@
+/*html kodu*/
+
+<div class="first"></div>
+<div class="second"></div>
+<div class="third"></div>
+
+/*scss kodu*/
+
+@mixin box ($color, $width) {
+  width: $width;
+  height: 100px;
+  background-color: $color;
+  float: left;
+  margin-left: 5px;
+}
+
+.first {
+  @include box(red, 50px);
+}
+
+.second {
+  @include box (blue, 60px);
+}
+.third {
+  @include box (green,70px);
+}
